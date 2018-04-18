@@ -1,0 +1,473 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Regular"), url("../fonts/opensans.woff2") format("woff2"), url("../fonts/opensans.woff") format("woff");
+  font-weight: 400; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Bold"), url("../fonts/opensansbold.woff2") format("woff2"), url("../fonts/opensansbold.woff") format("woff");
+  font-weight: 700; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: local("Open Sans Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
+  font-weight: 300; }
+
+/* основые цвета текста в проекте */
+/* основые цвета фона в проекте */
+.achievements-information {
+  min-height: 604px;
+  background-color: #f2f2f2;
+  border: none; }
+
+.achievements-information__intro {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #d22856;
+  text-transform: uppercase; }
+
+.achievements-information {
+  min-height: 604px;
+  background-color: #f2f2f2;
+  border: none; }
+
+.achievements-information__intro {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #d22856;
+  text-transform: uppercase; }
+
+.achievements-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.achievements-list__checkbox {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645; }
+
+.application-download {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  background-color: #2b3a4a; }
+  .application-download h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff; }
+
+.application-features {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283645;
+  min-height: 1002px;
+  background-color: #f2f2f2;
+  background-image: url("../../img/iphone-screen-mobile@1x.png");
+  background-repeat: no-repeat;
+  background-position: bottom center; }
+
+.application-features__header {
+  background-color: #ffffff; }
+  .application-features__header h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #283645; }
+
+.application-features__slogan {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #283645; }
+
+.application-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.application-list__item {
+  min-height: 56px;
+  background-repeat: no-repeat;
+  background-position: center center; }
+  .application-list__item--ios {
+    background-image: url("../../img/logo-apple.svg"); }
+  .application-list__item--android {
+    background-image: url("../../img/logo-android.svg"); }
+  .application-list__item--microsoft {
+    background-image: url("../../img/logo-microsoft.svg"); }
+
+.application-list__link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none; }
+
+.appointment {
+  background-color: #ffffff; }
+
+.appointment__info {
+  line-height: 30px; }
+
+.appointment__legend {
+  line-height: 30px; }
+  .appointment__legend sup {
+    color: #d22856; }
+
+.button {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #ffffff;
+  text-decoration: none; }
+
+.comment-information {
+  min-height: 271px;
+  background-color: #ffffff; }
+  .comment-information label {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #d22856;
+    text-transform: uppercase; }
+  .comment-information textarea {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #283645; }
+
+.contacts-information {
+  min-height: 287px;
+  background-color: #ffffff; }
+  .contacts-information label {
+    color: #d22856;
+    text-transform: uppercase; }
+  .contacts-information input {
+    font-size: 18px;
+    line-height: 30px; }
+
+.contacts-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.contacts-list__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #283645; }
+
+.contacts-list__information {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #d22856; }
+
+.copyright {
+  background-color: #ffffff; }
+
+.copyright__text {
+  font-weight: 400;
+  line-height: 18px; }
+
+.edit-button {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #f2f2f2; }
+
+.features-list__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin: 0;
+  padding: 0; }
+
+.form-buttons {
+  min-height: 202px; }
+
+.form-buttons__submit {
+  color: #d22856; }
+
+.form-buttons__cancel {
+  color: rgba(40, 54, 69, 0.1); }
+
+.maps {
+  min-height: 645px;
+  background-color: #f2f2f2; }
+  .maps h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #283645; }
+
+.maps__map {
+  margin: 0;
+  padding: 0; }
+
+.name-information {
+  min-height: 370px;
+  background-color: #ffffff; }
+  .name-information label {
+    color: #d22856;
+    text-transform: uppercase; }
+  .name-information input {
+    font-size: 18px;
+    line-height: 30px; }
+
+.page-footer {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645;
+  min-height: 395px;
+  background-color: #ffffff; }
+
+.page-footer__slogan {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 300;
+  color: #283645; }
+
+.page-header {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  background-color: rgba(29, 38, 49, 0.3); }
+
+.page-intro {
+  min-height: 462px;
+  background-color: #2b3a4a;
+  background-image: url("../../img/iphone-hand-mobile@1x.png"), url("../../img/bg-back-mobile@1x.jpg");
+  background-position: bottom left, top left;
+  background-repeat: no-repeat; }
+  .page-intro h1 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff; }
+
+.photo-page .page-intro,
+.form-page .page-intro {
+  min-height: 237px;
+  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-position: top left;
+  background-repeat: no-repeat; }
+
+.photo-edit {
+  background-color: #f2f2f2; }
+  .photo-edit h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #283645; }
+
+.photos-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.photos-list__item {
+  min-height: 323px;
+  background-color: #f2f2f2; }
+
+.photos-list__author-name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #283645; }
+
+.photos-list__author-time {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #283645;
+  text-transform: uppercase; }
+
+.photos-list__comment {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283645; }
+
+.photos-list__like {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #d22856; }
+
+.photos {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645;
+  background-color: #ffffff; }
+
+.platform-information {
+  min-height: 340px;
+  background-color: #f2f2f2;
+  border: none; }
+
+.platform-information__intro {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #d22856;
+  text-transform: uppercase; }
+
+.platform-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.platform-list__radio {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645; }
+
+.rates {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645;
+  text-transform: uppercase;
+  min-height: 470px;
+  background-color: #f2f2f2; }
+  .rates h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #283645;
+    text-transform: none; }
+
+.rates__item th {
+  background-color: #283645; }
+
+.rates__title {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.rates__price {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase; }
+
+.rates__item td {
+  background-color: #ffffff; }
+
+.rates__property-include {
+  background-image: url("../../img/icon-yes.svg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.rates__property-exclude {
+  background-image: url("../../img/icon-no.svg");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+.reviews {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #283645;
+  min-height: 377px;
+  background-color: #ffffff; }
+  .reviews h2 {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #283645; }
+
+.reviews__item {
+  margin: 0;
+  padding: 0; }
+
+.reviews__author-name {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 30px;
+  font-weight: 700;
+  color: #000000; }
+
+.site-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #283645; }
+
+.site-list__link {
+  color: #ffffff; }
+
+.social {
+  background-color: #ffffff; }
+
+.social__list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.social__link {
+  color: #283645; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #283645;
+  background-color: #ffffff; }
+
+a {
+  text-decoration: none; }
