@@ -14,20 +14,21 @@
   src: local("Open Sans Light"), url("../fonts/opensanslight.woff2") format("woff2"), url("../fonts/opensanslight.woff") format("woff");
   font-weight: 300; }
 
-/* основые цвета текста в проекте */
+/* основные цвета текста в проекте */
 /* основые цвета фона в проекте */
-.achievements-information {
-  min-height: 604px;
-  background-color: #f2f2f2;
-  border: none; }
-
-.achievements-information__intro {
+/* убираем отступы и маркеры у списков */
+body {
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
-  line-height: 18px;
+  line-height: 24px;
   font-weight: 400;
-  color: #d22856;
-  text-transform: uppercase; }
+  color: #283645;
+  background-color: #ffffff; }
+
+a {
+  text-decoration: none; }
 
 .achievements-information {
   min-height: 604px;
@@ -35,7 +36,6 @@
   border: none; }
 
 .achievements-information__intro {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -48,51 +48,28 @@
   list-style: none; }
 
 .achievements-list__checkbox {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #283645; }
+  line-height: 30px; }
 
 .application-download {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
   font-weight: 300;
   color: #ffffff;
-  background-color: #2b3a4a; }
-  .application-download h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #ffffff; }
+  background-color: #1d2631; }
 
 .application-features {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #283645;
   min-height: 1002px;
   background-color: #f2f2f2;
-  background-image: url("../../img/iphone-screen-mobile@1x.png");
+  background-image: url("../img/iphone-screen-mobile@1x.png");
   background-repeat: no-repeat;
   background-position: bottom center; }
 
 .application-features__header {
   background-color: #ffffff; }
-  .application-features__header h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #283645; }
 
 .application-features__slogan {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 300;
-  color: #283645; }
+  font-weight: 300; }
 
 .application-list {
   margin: 0;
@@ -104,14 +81,13 @@
   background-repeat: no-repeat;
   background-position: center center; }
   .application-list__item--ios {
-    background-image: url("../../img/logo-apple.svg"); }
+    background-image: url("../img/logo-apple.svg"); }
   .application-list__item--android {
-    background-image: url("../../img/logo-android.svg"); }
+    background-image: url("../img/logo-android.svg"); }
   .application-list__item--microsoft {
-    background-image: url("../../img/logo-microsoft.svg"); }
+    background-image: url("../img/logo-microsoft.svg"); }
 
 .application-list__link {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
@@ -129,8 +105,16 @@
   .appointment__legend sup {
     color: #d22856; }
 
+.appointment__button {
+  font: inherit;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase; }
+
 .button {
-  font-family: "Open Sans", "Arial", sans-serif;
+  font: inherit;
   font-size: 18px;
   line-height: 18px;
   font-weight: 700;
@@ -141,18 +125,13 @@
   min-height: 271px;
   background-color: #ffffff; }
   .comment-information label {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 14px;
     line-height: 18px;
-    font-weight: 400;
     color: #d22856;
     text-transform: uppercase; }
   .comment-information textarea {
-    font-family: "Open Sans", "Arial", sans-serif;
+    font: inherit;
     font-size: 18px;
-    line-height: 30px;
-    font-weight: 400;
-    color: #283645; }
+    line-height: 30px; }
 
 .contacts-information {
   min-height: 287px;
@@ -161,6 +140,7 @@
     color: #d22856;
     text-transform: uppercase; }
   .contacts-information input {
+    font: inherit;
     font-size: 18px;
     line-height: 30px; }
 
@@ -170,15 +150,10 @@
   list-style: none; }
 
 .contacts-list__title {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #283645; }
+  font-weight: 700; }
 
 .contacts-list__information {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 24px;
   line-height: 32px;
   font-weight: 300;
   color: #d22856; }
@@ -202,13 +177,11 @@
   background-color: #f2f2f2; }
 
 .features-list__title {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000000; }
 
 .form-buttons {
   min-height: 202px; }
@@ -222,11 +195,6 @@
 .maps {
   min-height: 645px;
   background-color: #f2f2f2; }
-  .maps h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #283645; }
 
 .maps__map {
   margin: 0;
@@ -239,27 +207,21 @@
     color: #d22856;
     text-transform: uppercase; }
   .name-information input {
+    font: inherit;
     font-size: 18px;
     line-height: 30px; }
 
 .page-footer {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #283645;
   min-height: 395px;
+  line-height: 30px;
   background-color: #ffffff; }
 
 .page-footer__slogan {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 24px;
   line-height: 32px;
-  font-weight: 300;
-  color: #283645; }
+  font-weight: 300; }
 
 .page-header {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 32px;
   font-weight: 700;
@@ -269,30 +231,30 @@
 
 .page-intro {
   min-height: 462px;
-  background-color: #2b3a4a;
-  background-image: url("../../img/iphone-hand-mobile@1x.png"), url("../../img/bg-back-mobile@1x.jpg");
+  background-color: #1d2631;
+  background-image: url("../img/iphone-hand-mobile@1x.png"), url("../img/bg-back-mobile@1x.jpg");
   background-position: bottom left, top left;
   background-repeat: no-repeat; }
-  .page-intro h1 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #ffffff; }
 
-.photo-page .page-intro,
+.page-intro__title {
+  font-size: 24px;
+  font-weight: 300;
+  color: #ffffff; }
+
+.photo-page .page-intro {
+  min-height: 237px;
+  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background-position: top left;
+  background-repeat: no-repeat; }
+
 .form-page .page-intro {
   min-height: 237px;
-  background-image: url("../../img/bg-back-mobile@1x.jpg");
+  background-image: url("../img/bg-back-mobile@1x.jpg");
   background-position: top left;
   background-repeat: no-repeat; }
 
 .photo-edit {
   background-color: #f2f2f2; }
-  .photo-edit h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #283645; }
 
 .photos-list {
   margin: 0;
@@ -304,40 +266,19 @@
   background-color: #f2f2f2; }
 
 .photos-list__author-name {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #283645; }
+  font-weight: 700; }
 
 .photos-list__author-time {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 12px;
-  line-height: 24px;
   font-weight: 300;
-  color: #283645;
   text-transform: uppercase; }
 
-.photos-list__comment {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #283645; }
-
 .photos-list__like {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 12px;
-  line-height: 24px;
-  font-weight: 400;
   color: #d22856; }
 
 .photos {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
   line-height: 30px;
-  font-weight: 400;
-  color: #283645;
   background-color: #ffffff; }
 
 .platform-information {
@@ -346,7 +287,6 @@
   border: none; }
 
 .platform-information__intro {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 400;
@@ -359,33 +299,19 @@
   list-style: none; }
 
 .platform-list__radio {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #283645; }
+  line-height: 30px; }
 
 .rates {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #283645;
-  text-transform: uppercase;
   min-height: 470px;
+  line-height: 30px;
+  text-transform: uppercase;
   background-color: #f2f2f2; }
-  .rates h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #283645;
-    text-transform: none; }
 
 .rates__item th {
-  background-color: #283645; }
+  background-color: #1d2631; }
 
 .rates__title {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
   line-height: 30px;
   font-weight: 700;
@@ -393,7 +319,6 @@
   text-transform: uppercase; }
 
 .rates__price {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 24px;
   line-height: 30px;
   font-weight: 300;
@@ -404,35 +329,25 @@
   background-color: #ffffff; }
 
 .rates__property-include {
-  background-image: url("../../img/icon-yes.svg");
+  background-image: url("../img/icon-yes.svg");
   background-repeat: no-repeat;
   background-position: center center; }
 
 .rates__property-exclude {
-  background-image: url("../../img/icon-no.svg");
+  background-image: url("../img/icon-no.svg");
   background-repeat: no-repeat;
   background-position: center center; }
 
 .reviews {
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 30px;
-  font-weight: 400;
-  color: #283645;
   min-height: 377px;
+  line-height: 30px;
   background-color: #ffffff; }
-  .reviews h2 {
-    font-family: "Open Sans", "Arial", sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    color: #283645; }
 
 .reviews__item {
   margin: 0;
   padding: 0; }
 
 .reviews__author-name {
-  font-family: "Open Sans", "Arial", sans-serif;
   font-size: 18px;
   font-style: normal;
   line-height: 30px;
@@ -458,16 +373,3 @@
 
 .social__link {
   color: #283645; }
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Open Sans", "Arial", sans-serif;
-  font-size: 14px;
-  line-height: 24px;
-  font-weight: 400;
-  color: #283645;
-  background-color: #ffffff; }
-
-a {
-  text-decoration: none; }
